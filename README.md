@@ -14,11 +14,16 @@ of songs that were classified by genre and we manually classified them by mood a
 These are some spectrograms showing our work:
 
   a) Mel power spectrogram
+  
   b) Beat-synchronous MFCC (Timbre)
+  
   c) Beat-synchronous CQT (Intensity)
+  
   d) Percussive vs. Harmonic components
+  
   e) Beat-synchronous Chroma (Pitch)
-  f) This tables helped us his classify how each feature of a song translates to its mood:
+  
+  f) We used a table to help us classify how each feature of a song translates to its mood
   
 3) Pass this serialization through our model and then use it as a training/validation data
 which mean that the f vector is the serialization and the expected result, g vector, is
